@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		8D58EF3F1A02E382007EE446 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58EF3E1A02E382007EE446 /* main.m */; };
 		8D58EF421A02E382007EE446 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58EF411A02E382007EE446 /* AppDelegate.m */; };
-		8D58EF451A02E382007EE446 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58EF441A02E382007EE446 /* ViewController.m */; };
+		8D58EF451A02E382007EE446 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58EF441A02E382007EE446 /* RootViewController.m */; };
 		8D58EF481A02E382007EE446 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D58EF461A02E382007EE446 /* Main.storyboard */; };
 		8D58EF4A1A02E382007EE446 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D58EF491A02E382007EE446 /* Images.xcassets */; };
 		8D58EF4D1A02E382007EE446 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D58EF4B1A02E382007EE446 /* LaunchScreen.xib */; };
 		8D58EF591A02E382007EE446 /* Week2FooBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58EF581A02E382007EE446 /* Week2FooBarTests.m */; };
+		8D58EF641A02E5C5007EE446 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58EF631A02E5C5007EE446 /* City.m */; };
+		8D58EF681A02F663007EE446 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58EF671A02F663007EE446 /* DetailViewController.m */; };
+		8D58EF6B1A02F69F007EE446 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58EF6A1A02F69F007EE446 /* WebViewController.m */; };
+		8D58EF711A02FD06007EE446 /* LearnMoreLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58EF701A02FD06007EE446 /* LearnMoreLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,22 @@
 		8D58EF3E1A02E382007EE446 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D58EF401A02E382007EE446 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D58EF411A02E382007EE446 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8D58EF431A02E382007EE446 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8D58EF441A02E382007EE446 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8D58EF431A02E382007EE446 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8D58EF441A02E382007EE446 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		8D58EF471A02E382007EE446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D58EF491A02E382007EE446 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8D58EF4C1A02E382007EE446 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8D58EF521A02E382007EE446 /* Week2FooBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Week2FooBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D58EF571A02E382007EE446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D58EF581A02E382007EE446 /* Week2FooBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Week2FooBarTests.m; sourceTree = "<group>"; };
+		8D58EF621A02E5C5007EE446 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		8D58EF631A02E5C5007EE446 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		8D58EF661A02F663007EE446 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8D58EF671A02F663007EE446 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8D58EF691A02F69F007EE446 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		8D58EF6A1A02F69F007EE446 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		8D58EF6F1A02FD06007EE446 /* LearnMoreLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnMoreLabel.h; sourceTree = "<group>"; };
+		8D58EF701A02FD06007EE446 /* LearnMoreLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnMoreLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 		8D58EF301A02E382007EE446 = {
 			isa = PBXGroup;
 			children = (
+				8D58EF461A02E382007EE446 /* Main.storyboard */,
 				8D58EF3B1A02E382007EE446 /* Week2FooBar */,
 				8D58EF551A02E382007EE446 /* Week2FooBarTests */,
 				8D58EF3A1A02E382007EE446 /* Products */,
@@ -83,9 +96,15 @@
 			children = (
 				8D58EF401A02E382007EE446 /* AppDelegate.h */,
 				8D58EF411A02E382007EE446 /* AppDelegate.m */,
-				8D58EF431A02E382007EE446 /* ViewController.h */,
-				8D58EF441A02E382007EE446 /* ViewController.m */,
-				8D58EF461A02E382007EE446 /* Main.storyboard */,
+				8D58EF431A02E382007EE446 /* RootViewController.h */,
+				8D58EF441A02E382007EE446 /* RootViewController.m */,
+				8D58EF661A02F663007EE446 /* DetailViewController.h */,
+				8D58EF671A02F663007EE446 /* DetailViewController.m */,
+				8D58EF691A02F69F007EE446 /* WebViewController.h */,
+				8D58EF6A1A02F69F007EE446 /* WebViewController.m */,
+				8D58EF6F1A02FD06007EE446 /* LearnMoreLabel.h */,
+				8D58EF701A02FD06007EE446 /* LearnMoreLabel.m */,
+				8D58EF651A02F63F007EE446 /* Model */,
 				8D58EF491A02E382007EE446 /* Images.xcassets */,
 				8D58EF4B1A02E382007EE446 /* LaunchScreen.xib */,
 				8D58EF3C1A02E382007EE446 /* Supporting Files */,
@@ -117,6 +136,15 @@
 				8D58EF571A02E382007EE446 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D58EF651A02F63F007EE446 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D58EF621A02E5C5007EE446 /* City.h */,
+				8D58EF631A02E5C5007EE446 /* City.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +247,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D58EF451A02E382007EE446 /* ViewController.m in Sources */,
+				8D58EF681A02F663007EE446 /* DetailViewController.m in Sources */,
+				8D58EF6B1A02F69F007EE446 /* WebViewController.m in Sources */,
+				8D58EF451A02E382007EE446 /* RootViewController.m in Sources */,
 				8D58EF421A02E382007EE446 /* AppDelegate.m in Sources */,
+				8D58EF641A02E5C5007EE446 /* City.m in Sources */,
 				8D58EF3F1A02E382007EE446 /* main.m in Sources */,
+				8D58EF711A02FD06007EE446 /* LearnMoreLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +282,7 @@
 				8D58EF471A02E382007EE446 /* Base */,
 			);
 			name = Main.storyboard;
+			path = Week2FooBar;
 			sourceTree = "<group>";
 		};
 		8D58EF4B1A02E382007EE446 /* LaunchScreen.xib */ = {
