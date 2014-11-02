@@ -14,6 +14,7 @@
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 @property NSMutableArray *citiesArray;
+@property City *city;
 
 @end
 
@@ -30,6 +31,11 @@
     City *orlando = [[City alloc] initWithName:@"Orlando" andState:@"Florida" andImage:[UIImage imageNamed:@"orlando"] andURLString:@"http://en.wikipedia.org/wiki/Orlando,_Florida"];
     self.citiesArray = [@[sanFran, newyork, albuq, orlando] mutableCopy];
 
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self.tableView reloadData];
 }
 
 # pragma mark - Table View Delegates
@@ -60,6 +66,9 @@
     [self.citiesArray removeObjectAtIndex:indexPath.row];
     [tableView reloadData];
 }
+
+
+# pragma mark - Segue Life Cycle
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {

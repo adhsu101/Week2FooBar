@@ -24,4 +24,9 @@
     return self;
 }
 
+
+- (void)giveURL
+{
+    [self.delegate wikiPageRequested:(NSString *)self.urlString];
+}
 @end

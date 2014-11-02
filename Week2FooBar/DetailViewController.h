@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 #import "City.h"
 
+
 @interface DetailViewController : UIViewController
+
 @property City *city;
 
 @end

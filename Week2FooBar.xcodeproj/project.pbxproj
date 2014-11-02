@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D365E8C1A05DF2500731348 /* URLStringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D365E8B1A05DF2500731348 /* URLStringViewController.m */; };
 		8D58EF3F1A02E382007EE446 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58EF3E1A02E382007EE446 /* main.m */; };
 		8D58EF421A02E382007EE446 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58EF411A02E382007EE446 /* AppDelegate.m */; };
 		8D58EF451A02E382007EE446 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58EF441A02E382007EE446 /* RootViewController.m */; };
@@ -17,7 +18,6 @@
 		8D58EF641A02E5C5007EE446 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58EF631A02E5C5007EE446 /* City.m */; };
 		8D58EF681A02F663007EE446 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58EF671A02F663007EE446 /* DetailViewController.m */; };
 		8D58EF6B1A02F69F007EE446 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58EF6A1A02F69F007EE446 /* WebViewController.m */; };
-		8D58EF711A02FD06007EE446 /* LearnMoreLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D58EF701A02FD06007EE446 /* LearnMoreLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D365E8A1A05DF2500731348 /* URLStringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLStringViewController.h; sourceTree = "<group>"; };
+		8D365E8B1A05DF2500731348 /* URLStringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLStringViewController.m; sourceTree = "<group>"; };
 		8D58EF391A02E382007EE446 /* Week2FooBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week2FooBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D58EF3D1A02E382007EE446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D58EF3E1A02E382007EE446 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,8 +52,6 @@
 		8D58EF671A02F663007EE446 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		8D58EF691A02F69F007EE446 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		8D58EF6A1A02F69F007EE446 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
-		8D58EF6F1A02FD06007EE446 /* LearnMoreLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LearnMoreLabel.h; sourceTree = "<group>"; };
-		8D58EF701A02FD06007EE446 /* LearnMoreLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LearnMoreLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +102,8 @@
 				8D58EF671A02F663007EE446 /* DetailViewController.m */,
 				8D58EF691A02F69F007EE446 /* WebViewController.h */,
 				8D58EF6A1A02F69F007EE446 /* WebViewController.m */,
-				8D58EF6F1A02FD06007EE446 /* LearnMoreLabel.h */,
-				8D58EF701A02FD06007EE446 /* LearnMoreLabel.m */,
+				8D365E8A1A05DF2500731348 /* URLStringViewController.h */,
+				8D365E8B1A05DF2500731348 /* URLStringViewController.m */,
 				8D58EF651A02F63F007EE446 /* Model */,
 				8D58EF491A02E382007EE446 /* Images.xcassets */,
 				8D58EF4B1A02E382007EE446 /* LaunchScreen.xib */,
@@ -249,11 +249,11 @@
 			files = (
 				8D58EF681A02F663007EE446 /* DetailViewController.m in Sources */,
 				8D58EF6B1A02F69F007EE446 /* WebViewController.m in Sources */,
+				8D365E8C1A05DF2500731348 /* URLStringViewController.m in Sources */,
 				8D58EF451A02E382007EE446 /* RootViewController.m in Sources */,
 				8D58EF421A02E382007EE446 /* AppDelegate.m in Sources */,
 				8D58EF641A02E5C5007EE446 /* City.m in Sources */,
 				8D58EF3F1A02E382007EE446 /* main.m in Sources */,
-				8D58EF711A02FD06007EE446 /* LearnMoreLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +445,7 @@
 				8D58EF5E1A02E382007EE446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D58EF5F1A02E382007EE446 /* Build configuration list for PBXNativeTarget "Week2FooBarTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +454,7 @@
 				8D58EF611A02E382007EE446 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
